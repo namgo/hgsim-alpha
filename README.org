@@ -1,0 +1,30 @@
+#+TITLE: A Hunter Gatherer Simulation System
+
+* Why???
+
+I'm interested in developing a (very short of holistic) computational model of social interaction and thus have decided that a good first project would be developing a digital hunter-gatherer society. This development should help me understand how computer modeling works on sociology and should be the basis upon which I build future creations.
+Hunter-Gatherer society is by no means as simple as I am hoping to make it out to be, and moreover there are obviously numerous types of hunter gatherer societies themselves.
+By hunter-gatherer societies I am specifically trying to create a system without a monetary exchange, as it would likely be less complicated.
+
+I am interested in writing a social evolution mechanism into the model, what this means at this point I don't necessary know. What makes this system special isn't that it's the first of its kind. Many people have created other ABM systems, mine is simply the first attempt (to my knowledge) to produce daily measurable results and post them on facebook, because everyone loves a good shitpost.
+
+I would like to develop a modeling system for an environment without human competition, and basically just see what happens. This isn't particularly complicated or original work.
+
+NOTE: organism.py is very badly written, I'm moving onto my next sim so I probably won't make it any better.
+
+* Previous examples by other authors
+- https://github.com/Axelwickm/HunterGatherers
+- https://github.com/robertour/CulSim
+  
+* What I'm learning before I begin writing
+** The Complexity of Cooperation: Agent-Based Models of Competition and Collaboration (Axelrod, 1997)
+
+* Mechanisms of the game
+- The game is played out on a 20x20 plane
+- animals and plants are randomly generated every 15 turns
+** Starvation
+If an agent does not eat for 20 turns, they starve
+** Eating
+If an agent catches an animal or plant, they eat and have another 20 turns not to starve
+** Reproduction
+If two agents of opposite sexes are on an adjascent tile, they produce a new agent

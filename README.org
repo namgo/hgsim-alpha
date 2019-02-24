@@ -1,5 +1,9 @@
 #+TITLE: A Hunter Gatherer Simulation System
 
+#+CAPTION: The game playing out
+#+NAME:   fig:example
+[[./game.gif]]
+
 * Why???
 
 I'm interested in developing a (very short of holistic) computational model of social interaction and thus have decided that a good first project would be developing a digital hunter-gatherer society. This development should help me understand how computer modeling works on sociology and should be the basis upon which I build future creations.
